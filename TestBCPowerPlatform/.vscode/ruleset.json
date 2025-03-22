@@ -1,0 +1,685 @@
+{
+    "name": "Dependency-Graph-Ruleset",
+    "rules": [    
+        {
+            "id": "AA0001",
+            "action": "Error",
+            "justification": "CodeCop - There must be exactly one space character on each side of a binary operator."
+        },
+        {
+            "id": "AA0002",
+            "action": "Error",
+            "justification": "CodeCop - There must be no space character between a unary operator and its argument."
+        },
+        {
+            "id": "AA0003",
+            "action": "Error",
+            "justification": "CodeCop - There must be exactly one space character between the NOT operator and its argument."
+        },
+        {
+            "id": "AA0005",
+            "action": "Error",
+            "justification": "CodeCop - Only use BEGIN..END to enclose compound statements."
+        },
+        {
+            "id": "AA0008",
+            "action": "Error",
+            "justification": "CodeCop - Function calls should have parenthesis even if they do not have any parameters."
+        },
+        {
+            "id": "AA0013",
+            "action": "Error",
+            "justification": "CodeCop - When BEGIN follows THEN, ELSE, DO, it should be on the same line, preceded by one space characte."
+        },
+        {
+            "id": "AA0018",
+            "action": "Error",
+            "justification": "CodeCop - The END, IF, REPEAT, UNTIL, FOR, WHILE, and CASE statement should always start a line."
+        },
+        {
+            "id": "AA0021",
+            "action": "Error",
+            "justification": "CodeCop - Variable declarations should be ordered by type."
+        },
+        {
+            "id": "AA0022",
+            "action": "Error",
+            "justification": "CodeCop - An IF followed by two or more ELSE IF should be replaced with a CASE."
+        },
+        {
+            "id": "AA0040",
+            "action": "Error",
+            "justification": "CodeCop - Avoid using nested WITH statements."
+        },
+        {
+            "id": "AA0050",
+            "action": "Error",
+            "justification": "CodeCop - Permission set extensions should not include permissions for objects defined in another application."
+        },
+        {
+            "id": "AA0051",
+            "action": "Error",
+            "justification": "CodeCop - Permission set extensions should not include permission sets defined in another application."
+        },
+        {
+            "id": "AA0052",
+            "action": "Error",
+            "justification": "CodeCop - Permission set extensions should not include permission sets which include permissions for objects defined in another application."
+        },
+        {
+            "id": "AA0053",
+            "action": "Error",
+            "justification": "CodeCop - Permission set extensions should not include wildcard permissions."
+        },
+        {
+            "id": "AA0072",
+            "action": "Error",
+            "justification": "CodeCop - The name of variables and parameters must be suffixed with the type or object name."
+        },
+        {
+            "id": "AA0073",
+            "action": "Error",
+            "justification": "CodeCop - The name of temporary variable must be prefixed with Temp."
+        },
+        {
+            "id": "AA0074",
+            "action": "Error",
+            "justification": "CodeCop - TextConst and Label variable names should have an approved suffix."
+        },
+        {
+            "id": "AA0087",
+            "action": "Error",
+            "justification": "CodeCop - Lowering permissions should only be used in tests."
+        },
+        {
+            "id": "AA0100",
+            "action": "Error",
+            "justification": "CodeCop - Do not have identifiers with quotes in the name."
+        },
+        {
+            "id": "AA0101",
+            "action": "Error",
+            "justification": "CodeCop - Use camel case property values in pages of type API."
+        },
+        {
+            "id": "AA0102",
+            "action": "Error",
+            "justification": "CodeCop - Use camel case name for field controls in pages of type API."
+        },
+        {
+            "id": "AA0103",
+            "action": "Error",
+            "justification": "CodeCop - Use camel case property values in queries of type API."
+        },
+        {
+            "id": "AA0104",
+            "action": "Error",
+            "justification": "CodeCop - Use camel case name for column controls in queries of type API."
+        },
+        {
+            "id": "AA0131",
+            "action": "Error",
+            "justification": "CodeCop - String parameters must match placeholders."
+        },
+        {
+            "id": "AA0136",
+            "action": "Error",
+            "justification": "CodeCop - Do not write code that will never be hit."
+        },
+        {
+            "id": "AA0137",
+            "action": "Error",
+            "justification": "CodeCop - Do not declare variables that are unused."
+        },
+        {
+            "id": "AA0139",
+            "action": "Error",
+            "justification": "CodeCop - Do not assign a text to a target with smaller size."
+        },
+        {
+            "id": "AA0150",
+            "action": "Error",
+           "justification": "CodeCop - Do not declare parameters by reference if their values are never changed."
+        },
+        {
+            "id": "AA0161",
+            "action": "Error",
+           "justification": "CodeCop - Only use AssertError in Test Codeunits."
+        },
+        {
+            "id": "AA0175",
+            "action": "Error",
+            "justification": "CodeCop - Only find record if you need to use it."
+        },
+        {
+            "id": "AA0181",
+            "action": "Error",
+            "justification": "CodeCop - The FindSet or Find methods must be used only in connection with the Next  method."
+        },
+        {
+            "id": "AA0189",
+            "action": "Error",
+            "justification": "CodeCop - Only use a correct values of ApplicationArea."
+        },
+        {
+            "id": "AA0194",
+            "action": "Error",
+            "justification": "CodeCop - Only write actions that have an effect."
+        },
+        {
+            "id": "AA0198",
+            "action": "Error",
+            "justification": "CodeCop - Do not use identical names for local and global variables."
+        },
+        {
+            "id": "AA0199",
+            "action": "Error",
+            "justification": "CodeCop - Use only a correct order for ApplicationArea."
+        },
+        {
+            "id": "AA0199",
+            "action": "Error",
+            "justification": "CodeCop - Use only a correct order for ApplicationArea."
+        },
+        {
+            "id": "AA0200",
+            "action": "Error",
+            "justification": "CodeCop - When ApplicationArea is set to All, no other values for ApplicationArea should be specified."
+        },
+        {
+            "id": "AA0201",
+            "action": "Error",
+            "justification": "CodeCop - When ApplicationArea is set to Basic, you must also specify Suite."
+        },
+        {
+            "id": "AA0202",
+            "action": "Error",
+            "justification": "CodeCop - To avoid confusion, do not give local variables the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0203",
+            "action": "Error",
+            "justification": "CodeCop - To avoid confusion, do not give methods the same name as fields or actions in the same scope."
+        },
+        {
+            "id": "AA0204",
+            "action": "Error",
+            "justification": "CodeCop - To avoid confusion, do not give global variables the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0205",
+            "action": "Error",
+            "justification": "CodeCop - Variables must be initialized before usage."
+        },
+        {
+            "id": "AA0206",
+            "action": "Error",
+            "justification": "CodeCop - The value assigned to a variable must be used."
+        },
+        {
+            "id": "AA0207",
+            "action": "Error",
+            "justification": "CodeCop - The EventSubscriber method must be local."
+        },
+        {
+            "id": "AA0210",
+            "action": "Error",
+            "justification": "CodeCop - Avoid non-indexed fields into filtering."
+        },
+        {
+            "id": "AA0211",
+            "action": "Error",
+            "justification": "CodeCop - Avoids a runtime error from using CalcFields on a field that is not a FlowField or a field of type Blob."
+        },
+        {
+            "id": "AA0213",
+            "action": "Error",
+            "justification": "CodeCop - Obsoleted object must have a state Pending or Removed and a justification specifying why this field is being obsoleted."
+        },
+        {
+            "id": "AA0214",
+            "action": "Error",
+            "justification": "CodeCop - The local record should be modified before saving to the database."
+        },
+        {
+            "id": "AA0215",
+            "action": "Error",
+            "justification": "CodeCop - Follow the style guide about the best practices for naming."
+        },
+        {
+            "id": "AA0216",
+            "action": "Error",
+            "justification": "CodeCop - Use a text constant for passing user messages and errors without concatenations."
+        },
+        {
+            "id": "AA0217",
+            "action": "Error",
+            "justification": "CodeCop - Use a text constant or label for format string in StrSubstNo."
+        },
+        {
+            "id": "AA0218",
+            "action": "Error",
+            "justification": "CodeCop - You must write a tooltip in the Tooltip property for all controls of type Action and Field that exist on page objects."
+        },
+        {
+            "id": "AA0219",
+            "action": "Error",
+            "justification": "CodeCop - he Tooltip property of Fields must start with Specifies."
+        },
+        {
+            "id": "AA0220",
+            "action": "Error",
+            "justification": "CodeCop - The value of the Tooltip property of Fields must be filled."
+        },
+        {
+            "id": "AA0221",
+            "action": "Error",
+            "justification": "CodeCop - You must specify a OptionCaption property for all fields which source expressions is not a table field."
+        },
+        {
+            "id": "AA0222",
+            "action": "Error",
+            "justification": "CodeCop - SIFT index should not be used on primary or unique key."
+        },
+        {
+            "id": "AA0223",
+            "action": "Error",
+            "justification": "CodeCop - The value of the OptionCaption property of Fields must be filled in."
+        },
+        {
+            "id": "AA0224",
+            "action": "Error",
+            "justification": "CodeCop - The count of option captions specified in the OptionCaption property is wrong."
+        },
+        {
+            "id": "AA0225",
+            "action": "Error",
+            "justification": "CodeCop - You must specify a caption in the Caption property for Fields that exist on page objects."
+        },
+        {
+            "id": "AA0226",
+            "action": "Error",
+           "justification": "CodeCop - The value of the Caption property of Fields must be filled in."
+        },
+        {
+            "id": "AA0227",
+            "action": "Error",
+            "justification": "CodeCop - Optional return value should not be omitted in upgrade codeunits."
+        },
+        {
+            "id": "AA0228",
+            "action": "Error",
+            "justification": "CodeCop - The local method must be used; otherwise removed."
+        },
+        {
+            "id": "AA0230",
+            "action": "Error",
+            "justification": "CodeCop - Version should not be specified for internal assemblies."
+        },
+        {
+            "id": "AA0231",
+            "action": "Error",
+            "justification": "CodeCop - StrSubstNo or string concatenation must not be used as a parameter in the Error method."
+        },
+        {
+            "id": "AA0232",
+            "action": "Error",
+            "justification": "CodeCop - The FlowField of a table should be indexed."
+        },
+        {
+            "id": "AA0233",
+            "action": "Error",
+            "justification": "CodeCop - Use Get, FindFirst and FindLast without Next method."
+        },
+        {
+            "id": "AA0235",
+            "action": "Error",
+            "justification": "CodeCop - When using OnInstallAppPerCompany you should also add Company-Initialize::OnCompanyInitialize event subscriber."
+        },
+        {
+            "id": "AA0237",
+            "action": "Error",
+            "justification": "CodeCop - The name of non-temporary variables must not be prefixed with Temp."
+        },
+        {
+            "id": "AA0240",
+            "action": "Error",
+            "justification": "CodeCop - Email and Phone No must not be present in any part of the source code."
+        },  
+        {
+            "id": "AA0241",
+            "action": "Error",
+            "justification": "CodeCop - Use all lowercase letters for reserved language keywords."
+        },
+        {
+            "id": "AA0242",
+            "action": "Error",
+            "justification": "CodeCop - Limit JIT loads by selecting all fields for load."
+        },
+        {
+            "id": "AA0243",
+            "action": "Error",
+            "justification": "CodeCop - Running an upgrade codeunit is not allowed."
+        },
+        {
+            "id": "AA0244",
+            "action": "Error",
+            "justification": "CodeCop - Do not use identical names for parameters and global variables."
+        },
+        {
+            "id": "AA0245",
+            "action": "Error",
+            "justification": "CodeCop - To avoid confusion, do not give parameters the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0246",
+            "action": "Error",
+            "justification": "CodeCop - Suppressing all diagnostics is not allowed."
+        },
+        {
+            "id": "AA0247",
+            "action": "Error",
+            "justification": "CodeCop - Use namespaces to organize your code and isolate it from changes."
+        },
+        {
+            "id": "AA0448",
+            "action": "Error",
+            "justification": "CodeCop - You must use the FieldCaption method instead of the FieldName method and TableCaption method instead of TableName method."
+        },
+        {
+            "id": "AA0462",
+            "action": "Error",
+            "justification": "CodeCop - The CalcDate should only be used with DataFormula variables. Alternatively the string should be enclosed using the symbols."
+        },
+        {
+            "id": "AA0470",
+            "action": "Error",
+            "justification": "CodeCop - Placeholders should have a comment explaining their content."
+        },
+        {
+            "id": "AS0035",
+            "action": "Error",
+            "justification": "AppSourceCop - Unsupported page property change."
+        },
+        {
+            "id": "AS0040",
+            "action": "Error",
+            "justification": "AppSourceCop - Removing properties that cause destructive changes is not allowed."
+        },
+        {
+            "id": "AS0055",
+            "action": "Info",
+            "justification": "AppSourceCop - The AppSourceCop configuration must specify the list of countries regions targeted by the application."
+        },
+        {
+            "id": "AS0056",
+            "action": "Error",
+            "justification": "AppSourceCop - The country region codes specified in the supportedCountries property must be valid ISO 3166-1 alpha-2 codes."
+        },
+        {
+            "id": "AS0057",
+            "action": "Warning",
+            "justification": "AppSourceCop - Translations must be provided for all the locales in which the application will be available."
+        },
+        {
+            "id": "AS0072",
+            "action": "Error",
+            "justification": "AppSourceCop - The ObsoleteTag property and the Tag in the Obsolete attribute must be set to the next release version."
+        },
+        {
+            "id": "AS0073",
+            "action": "Error",
+            "justification": "AppSourceCop - Obsolete Tag must be set."
+        },
+        {
+            "id": "AS0074",
+            "action": "Error",
+            "justification": "AppSourceCop - The Obsolete Tag must be the same across branches."
+        },
+        {
+            "id": "AS0075",
+            "action": "Error",
+            "justification": "AppSourceCop - Obsolete Reason must be set."
+        },
+        {
+            "id": "AS0076",
+            "action": "Error",
+            "justification": "AppSourceCop - TObsolete Tag format."
+        },
+        {
+            "id": "AS0079",
+            "action": "Error",
+            "justification": "AppSourceCop - An affix is required for procedures defined in extension objects."
+        },
+        {
+            "id": "AS0081",
+            "action": "Error",
+            "justification": "AppSourceCop - InternalsVisibleTo should not be used as a security feature."
+        },
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "AppSourceCop - The ID range assigned to the extension must be within the allowed range."
+        },
+        {
+            "id": "AS0085",
+            "action": "Error",
+            "justification": "AppSourceCop - Use the application property instead of specifying explicit dependencies."
+        },
+        {
+            "id": "AS0086",
+            "action": "Error",
+            "justification": "AppSourceCop - Fields must not increase in length."
+        },
+         {
+            "id": "AS0087",
+            "action": "Error",
+            "justification": "AppSourceCop - Translations of enum value captions must not contain commas."
+        },
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "AppSourceCop - At the moment we do not use telemetry."
+        },
+        {
+            "id": "AS0094",
+            "action": "Error",
+            "justification": "AppSourceCop - Permission Sets should not be defined in XML files."
+        },
+        {
+            "id": "AS0098",
+            "action": "Error",
+            "justification": "AppSourceCop - An affix is needed."
+        },
+        {
+            "id": "AS0099",
+            "action": "Error",
+            "justification": "AppSourceCop - The member ID should be within the allowed range."
+        },
+        {
+            "id": "AS0103",
+            "action": "Error",
+            "justification": "AppSourceCop - Table definitions must have a matching permission set."
+        },
+        {
+            "id": "AS0109",
+            "action": "Error",
+            "justification": "AppSourceCop - The type of the table has changed from Normal to Temporary."
+        },
+        {
+            "id": "AS0110",
+            "action": "Error",
+            "justification": "AppSourceCop - Permission set extensions should not include permissions for objects defined in another application."
+        },
+        {
+            "id": "AS0111",
+            "action": "Error",
+            "justification": "AppSourceCop - Permission set extensions should not include permission sets defined in another application."
+        },
+        {
+            "id": "AS0112",
+            "action": "Error",
+            "justification": "AppSourceCop - Permission set extensions should not include permission sets which include permissions for objects defined in another application."
+        },
+        {
+            "id": "AS0113",
+            "action": "Error",
+            "justification": "AppSourceCop - Permission set extensions should not include wildcard permissions."
+        },
+        {
+            "id": "AS0116",
+            "action": "Error",
+            "justification": "AppSourceCop - Source application for the moved symbol cannot be found."
+        },
+        {
+            "id": "AS0117",
+            "action": "Error",
+            "justification": "AppSourceCop - Application object is moved without the use of PendingMove."
+        },
+        {
+            "id": "AS0119",
+            "action": "Error",
+            "justification": "AppSourceCop - The value of the MovedTo property in the source symbol does not match the destination AppId."
+        },
+        {
+            "id": "AS0120",
+            "action": "Error",
+            "justification": "AppSourceCop - The value of the MovedFrom property in the destination object does not match the source AppId."
+        },
+        {
+            "id": "AS0122",
+            "action": "Error",
+            "justification": "AppSourceCop - Source symbol for the moved symbol cannot be found in the package with the given AppId."
+        },
+        {
+            "id": "AS0126",
+            "action": "Error",
+            "justification": "AppSourceCop -InternalsVisibleTo should not specifying a different publisher name than the one of this extension."
+        },
+        { 
+            "id": "AS0127",
+            "action": "Error",
+            "justification": "AppSourceCop - Objects should be placed in a namespace with at least two levels."
+        },
+        {
+            "id": "PTE0012",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - InternalsVisibleTo should not be used as a security feature."
+        },
+        {
+            "id": "PTE0014",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - Permission Sets should not be defined in XML files."
+        },
+        {
+            "id": "PTE0016",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - Permission set extensions should not include permissions for objects defined in another application."
+        },
+        {
+            "id": "PTE0017",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - Permission set extensions should not include permission sets defined in another application."
+        },
+        {
+            "id": "PTE0018",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - Permission set extensions should not include permission sets which include permissions for objects defined in another application."
+        },
+        {
+            "id": "PTE0019",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - Permission set extensions should not include wildcard permissions."
+        },
+        {
+            "id": "PTE0020",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - Use the application property instead of specifying an explicit dependency on Base Application."
+        },
+        {
+            "id": "PTE0022",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - The member ID should be within the allowed range."
+        },
+        {
+            "id": "PTE0023",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - The enum ordinal value should be within the allowed range."
+        },
+        {
+            "id": "AW0001",
+            "action": "Error",
+            "justification": "UICop - The Web client does not support displaying the Request page of XMLPorts."
+        },
+        {
+            "id": "AW0002",
+            "action": "Error",
+            "justification": "UICop - The Web client does not support displaying both Actions and Fields in Cue Groups. Only Fields will be displayed."
+        },
+        {
+            "id": "AW0003",
+            "action": "Error",
+            "justification": "UICop - The Web client does not support displaying Repeater controls containing Parts."
+        },
+        {
+            "id": "AW0004",
+            "action": "Error",
+            "justification": "UICop - A Blob cannot be used as a source expression for a page field."
+        },
+        {
+            "id": "AW0005",
+            "action": "Error",
+            "justification": "UICop - Actions should use the Image property."
+        },
+        {
+            "id": "AW0006",
+            "action": "Error",
+            "justification": "UICop - Pages and reports should use the UsageCategory and ApplicationArea properties to be searchable."
+        },
+        {
+            "id": "AW0008",
+            "action": "Error",
+            "justification": "UICop - The Web client only supports displaying Repeater controls in pages of type List, ListPart, and Worksheet."
+        },
+        {
+            "id": "AW0009",
+            "action": "Error",
+            "justification": "UICop - Using a Blob with subtype Bitmap on a page field is deprecated. Instead use the Media MediaSet data types."
+        },
+        {
+            "id": "AW0010",
+            "action": "Error",
+            "justification": "UICop - A Repeater control used on a List page must be defined at the beginning of the area Content section."
+        },
+        {
+            "id": "AW0011",
+            "action": "Error",
+            "justification": "UICop - Add PromotedOnly=true to some or all promoted actions to avoid identical actions from appearing in both the promoted and default sections of the command bar."
+        },
+        {
+            "id": "AW0012",
+            "action": "Error",
+            "justification": "UICop - The Web client does not support properties for teaching tips in certain contexts."
+        },
+        {
+            "id": "AW0013",
+            "action": "Error",
+            "justification": "UICop - Groups containing promoted actions should not be hidden."
+        },
+        {
+            "id": "AW0014",
+            "action": "Error",
+            "justification": "UICop - Groups containing ActionRef targets should not be hidden."
+        },
+        {
+            "id": "AW0015",
+            "action": "Error",
+            "justification": "UICop - Actions with scope repeater must be promoted."
+        },
+        {
+            "id": "AW0016",
+            "action": "Error",
+            "justification": "UICop - Rich Text Editor fields are only allowed while alone in a FastTab group."
+        }
+    ]
+}
